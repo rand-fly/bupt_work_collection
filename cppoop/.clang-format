@@ -1,0 +1,9 @@
+BasedOnStyle: LLVM
+IndentWidth: 4
+Language: Cpp
+AllowShortIfStatementsOnASingleLine: AllIfsAndElse
+AllowShortLoopsOnASingleLine: true
+AlwaysBreakTemplateDeclarations: true
+ColumnLimit: 0
+AlignOperands: AlignAfterOperator
+BreakBeforeBinaryOperators: NonAssignment
