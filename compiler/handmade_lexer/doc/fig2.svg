@@ -1,0 +1,392 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1587pt" height="607pt" viewBox="0.00 0.00 1587.00 606.8">
+<g id="graph0" class="graph" transform="translate(4,602.7999877929688) scale(1)" data-name="G">
+
+<polygon fill="white" stroke="none" points="-4,4 -4,-602.8 1583,-602.8 1583,4 -4,4"/>
+<!-- start1 -->
+<g id="node1" class="node" pointer-events="visible" data-name="start1">
+
+</g>
+<!-- zero -->
+<g id="node6" class="node" pointer-events="visible" data-name="zero">
+
+<ellipse fill="none" stroke="black" cx="118.65" cy="-258" rx="27.81" ry="18"/>
+<text text-anchor="middle" x="118.65" y="-253.8" font-family="Times,serif" font-size="14.00">zero</text>
+</g>
+<!-- start1&#45;&gt;zero -->
+<g id="edge1" class="edge" data-name="start1-&gt;zero">
+
+<path fill="none" stroke="black" d="M53.93,-258C61.82,-258 70.67,-258 79.21,-258"/>
+<polygon fill="black" stroke="black" points="79.02,-261.5 89.02,-258 79.02,-254.5 79.02,-261.5"/>
+</g>
+<!-- start2 -->
+<g id="node2" class="node" pointer-events="visible" data-name="start2">
+
+</g>
+<!-- int_decimal -->
+<g id="node7" class="node" pointer-events="visible" data-name="int_decimal">
+
+<ellipse fill="none" stroke="black" cx="471.86" cy="-363" rx="56.75" ry="18"/>
+<text text-anchor="middle" x="471.86" y="-358.8" font-family="Times,serif" font-size="14.00">int_decimal</text>
+</g>
+<!-- start2&#45;&gt;int_decimal -->
+<g id="edge2" class="edge" data-name="start2-&gt;int_decimal">
+
+<path fill="none" stroke="black" d="M279.7,-346.25C310.43,-348.95 362.99,-353.55 405.22,-357.25"/>
+<polygon fill="black" stroke="black" points="404.78,-360.72 415.05,-358.11 405.39,-353.75 404.78,-360.72"/>
+</g>
+<!-- start3 -->
+<g id="node3" class="node" pointer-events="visible" data-name="start3">
+
+</g>
+<!-- float_decimal_fraction -->
+<g id="node8" class="node" pointer-events="visible" data-name="float_decimal_fraction">
+
+<ellipse fill="none" stroke="black" cx="701.97" cy="-234" rx="98.96" ry="18"/>
+<text text-anchor="middle" x="701.97" y="-229.8" font-family="Times,serif" font-size="14.00">float_decimal_fraction</text>
+</g>
+<!-- start3&#45;&gt;float_decimal_fraction -->
+<g id="edge3" class="edge" data-name="start3-&gt;float_decimal_fraction">
+
+<path fill="none" stroke="black" d="M498.58,-186.09C530.06,-193.54 584.65,-206.46 629.21,-217.01"/>
+<polygon fill="black" stroke="black" points="628.29,-220.39 638.83,-219.29 629.9,-213.58 628.29,-220.39"/>
+</g>
+<!-- getIntSuffix -->
+<g id="node4" class="node" pointer-events="visible" data-name="getIntSuffix">
+
+<polygon fill="none" stroke="black" points="743.63,-436 660.32,-436 660.32,-400 743.63,-400 743.63,-436"/>
+<text text-anchor="middle" x="701.97" y="-413.8" font-family="Times,serif" font-size="14.00">getIntSuffix</text>
+</g>
+<!-- getFloatSuffix -->
+<g id="node5" class="node" pointer-events="visible" data-name="getFloatSuffix">
+
+<polygon fill="none" stroke="black" points="1578.95,-285 1482.18,-285 1482.18,-249 1578.95,-249 1578.95,-285"/>
+<text text-anchor="middle" x="1530.56" y="-262.8" font-family="Times,serif" font-size="14.00">getFloatSuffix</text>
+</g>
+<!-- zero&#45;&gt;getIntSuffix -->
+<g id="edge9" class="edge" data-name="zero-&gt;getIntSuffix">
+
+<path fill="none" stroke="black" d="M121.87,-276.25C127.53,-313.36 146.31,-396.5 203.31,-425 280.1,-463.4 537.54,-437.96 648.91,-424.66"/>
+<polygon fill="black" stroke="black" points="649.16,-428.16 658.66,-423.48 648.32,-421.21 649.16,-428.16"/>
+</g>
+<!-- zero&#45;&gt;float_decimal_fraction -->
+<g id="edge5" class="edge" data-name="zero-&gt;float_decimal_fraction">
+
+<path fill="none" stroke="black" d="M146.78,-258.81C163.15,-259.26 184.42,-259.77 203.31,-260 247.45,-260.53 258.51,-261.44 302.63,-260 404.01,-256.69 519.68,-248.67 600.15,-242.4"/>
+<polygon fill="black" stroke="black" points="600.07,-245.92 609.76,-241.65 599.52,-238.94 600.07,-245.92"/>
+<text text-anchor="middle" x="349.01" y="-264.2" font-family="Times,serif" font-size="14.00">.</text>
+</g>
+<!-- int_hex_x -->
+<g id="node9" class="node" pointer-events="visible" data-name="int_hex_x">
+
+<ellipse fill="none" stroke="black" cx="252.97" cy="-398" rx="49.82" ry="18"/>
+<text text-anchor="middle" x="252.97" y="-393.8" font-family="Times,serif" font-size="14.00">int_hex_x</text>
+</g>
+<!-- zero&#45;&gt;int_hex_x -->
+<g id="edge4" class="edge" data-name="zero-&gt;int_hex_x">
+
+<path fill="none" stroke="black" d="M129.12,-275.1C142.96,-298.91 170.64,-342.35 203.31,-371 206.03,-373.39 209,-375.66 212.09,-377.79"/>
+<polygon fill="black" stroke="black" points="209.95,-380.58 220.28,-382.95 213.68,-374.66 209.95,-380.58"/>
+<text text-anchor="middle" x="174.81" y="-356.2" font-family="Times,serif" font-size="14.00">x/X</text>
+</g>
+<!-- int_octal -->
+<g id="node10" class="node" pointer-events="visible" data-name="int_octal">
+
+<ellipse fill="none" stroke="black" cx="252.97" cy="-198" rx="44.65" ry="18"/>
+<text text-anchor="middle" x="252.97" y="-193.8" font-family="Times,serif" font-size="14.00">int_octal</text>
+</g>
+<!-- zero&#45;&gt;int_octal -->
+<g id="edge6" class="edge" data-name="zero-&gt;int_octal">
+
+<path fill="none" stroke="black" d="M142.1,-247.82C161.19,-239.16 189.08,-226.52 211.98,-216.13"/>
+<polygon fill="black" stroke="black" points="213.39,-219.34 221.05,-212.02 210.5,-212.96 213.39,-219.34"/>
+<text text-anchor="middle" x="174.81" y="-241.2" font-family="Times,serif" font-size="14.00">0-7</text>
+</g>
+<!-- int_octal_invalid -->
+<g id="node11" class="node" pointer-events="visible" data-name="int_octal_invalid">
+
+<ellipse fill="none" stroke="black" cx="471.86" cy="-53" rx="76.45" ry="18"/>
+<text text-anchor="middle" x="471.86" y="-48.8" font-family="Times,serif" font-size="14.00">int_octal_invalid</text>
+</g>
+<!-- zero&#45;&gt;int_octal_invalid -->
+<g id="edge7" class="edge" data-name="zero-&gt;int_octal_invalid">
+
+<path fill="none" stroke="black" d="M130.75,-241.28C157.7,-202.4 231.04,-106.59 320.63,-72 340.58,-64.29 363.03,-59.57 384.37,-56.7"/>
+<polygon fill="black" stroke="black" points="384.74,-60.19 394.25,-55.52 383.9,-53.24 384.74,-60.19"/>
+<text text-anchor="middle" x="252.97" y="-158.2" font-family="Times,serif" font-size="14.00">8-9</text>
+</g>
+<!-- int_decimal&#45;&gt;getIntSuffix -->
+<g id="edge13" class="edge" data-name="int_decimal-&gt;getIntSuffix">
+
+<path fill="none" stroke="black" d="M517.93,-373.87C555.59,-382.95 609.32,-395.9 648.83,-405.43"/>
+<polygon fill="black" stroke="black" points="647.82,-408.78 658.36,-407.73 649.46,-401.98 647.82,-408.78"/>
+</g>
+<!-- int_decimal&#45;&gt;int_decimal -->
+<g id="edge10" class="edge" data-name="int_decimal-&gt;int_decimal">
+
+<path fill="none" stroke="black" d="M453.33,-380.41C449.87,-390.09 456.05,-399 471.86,-399 481,-399 486.92,-396.02 489.62,-391.64"/>
+<polygon fill="black" stroke="black" points="493.1,-392.14 490.29,-381.92 486.11,-391.66 493.1,-392.14"/>
+<text text-anchor="middle" x="471.86" y="-403.2" font-family="Times,serif" font-size="14.00">0-9</text>
+</g><g id="edge8" class="edge" data-name="zero-&gt;float_decimal_e" data-comment="int_decimal-&gt;int_decimal">
+
+<path fill="none" stroke="black" d="M120.44,-239.86C124.07,-181.13 143.99,0 251.97,0 251.97,0 251.97,0 702.97,0 786.42,0 865.86,-68.93 904.11,-107.92"/>
+<polygon fill="black" stroke="black" points="901.57,-110.32 911.02,-115.11 906.62,-105.48 901.57,-110.32"/>
+<text text-anchor="middle" x="471.86" y="-4.2" font-family="Times,serif" font-size="14.00">e/E</text>
+</g>
+<!-- int_decimal&#45;&gt;float_decimal_fraction -->
+<g id="edge11" class="edge" data-name="int_decimal-&gt;float_decimal_fraction">
+
+<path fill="none" stroke="black" d="M497.07,-346.62C515.72,-334.22 542.29,-317.03 566.34,-303.2 595.4,-286.49 628.93,-269.25 655.26,-256.15"/>
+<polygon fill="black" stroke="black" points="656.56,-259.41 663.98,-251.84 653.46,-253.14 656.56,-259.41"/>
+<text text-anchor="middle" x="575.66" y="-308.2" font-family="Times,serif" font-size="14.00">.</text>
+</g>
+<!-- float_decimal_e -->
+<g id="node12" class="node" pointer-events="visible" data-name="float_decimal_e">
+
+<ellipse fill="none" stroke="black" cx="928.87" cy="-134" rx="73.48" ry="18"/>
+<text text-anchor="middle" x="928.87" y="-129.8" font-family="Times,serif" font-size="14.00">float_decimal_e</text>
+</g>
+<!-- int_decimal&#45;&gt;float_decimal_e -->
+<g id="edge12" class="edge" data-name="int_decimal-&gt;float_decimal_e">
+
+<path fill="none" stroke="black" d="M529.09,-363.05C598.07,-360.65 716.28,-348.36 800.95,-296 854.19,-263.08 894.01,-199.34 913.83,-162.39"/>
+<polygon fill="black" stroke="black" points="916.88,-164.11 918.41,-153.62 910.68,-160.86 916.88,-164.11"/>
+<text text-anchor="middle" x="701.97" y="-360.2" font-family="Times,serif" font-size="14.00">e/E</text>
+</g>
+<!-- float_decimal_fraction&#45;&gt;getFloatSuffix -->
+<g id="edge29" class="edge" data-name="float_decimal_fraction-&gt;getFloatSuffix">
+
+<path fill="none" stroke="black" d="M765.62,-248.19C810.54,-257.13 872.62,-267 927.87,-267 927.87,-267 927.87,-267 1363.22,-267 1398.85,-267 1438.76,-267 1470.56,-267"/>
+<polygon fill="black" stroke="black" points="1470.37,-270.5 1480.37,-267 1470.37,-263.5 1470.37,-270.5"/>
+</g>
+<!-- float_decimal_fraction&#45;&gt;float_decimal_fraction -->
+<g id="edge27" class="edge" data-name="float_decimal_fraction-&gt;float_decimal_fraction">
+
+<path fill="none" stroke="black" d="M679.27,-251.78C675.41,-261.31 682.98,-270 701.97,-270 712.66,-270 719.73,-267.25 723.18,-263.15"/>
+<polygon fill="black" stroke="black" points="726.64,-263.65 724.48,-253.28 719.7,-262.74 726.64,-263.65"/>
+<text text-anchor="middle" x="701.97" y="-274.2" font-family="Times,serif" font-size="14.00">0-9</text>
+</g>
+<!-- float_decimal_fraction&#45;&gt;float_decimal_e -->
+<g id="edge28" class="edge" data-name="float_decimal_fraction-&gt;float_decimal_e">
+
+<path fill="none" stroke="black" d="M741.12,-217.04C779.97,-199.76 840.24,-172.96 881.75,-154.51"/>
+<polygon fill="black" stroke="black" points="883.04,-157.77 890.75,-150.5 880.19,-151.37 883.04,-157.77"/>
+<text text-anchor="middle" x="828.29" y="-186.2" font-family="Times,serif" font-size="14.00">e/E</text>
+</g>
+<!-- int_hex -->
+<g id="node13" class="node" pointer-events="visible" data-name="int_hex">
+
+<ellipse fill="none" stroke="black" cx="471.86" cy="-492" rx="40.01" ry="18"/>
+<text text-anchor="middle" x="471.86" y="-487.8" font-family="Times,serif" font-size="14.00">int_hex</text>
+</g>
+<!-- int_hex_x&#45;&gt;int_hex -->
+<g id="edge22" class="edge" data-name="int_hex_x-&gt;int_hex">
+
+<path fill="none" stroke="black" d="M285.97,-411.87C324.78,-428.69 390.16,-457.02 431.87,-475.1"/>
+<polygon fill="black" stroke="black" points="430.24,-478.21 440.8,-478.97 433.02,-471.79 430.24,-478.21"/>
+<text text-anchor="middle" x="349.01" y="-454.2" font-family="Times,serif" font-size="14.00">0-9a-fA-F</text>
+</g>
+<!-- int_octal&#45;&gt;getIntSuffix -->
+<g id="edge18" class="edge" data-name="int_octal-&gt;getIntSuffix">
+
+<path fill="none" stroke="black" d="M260.43,-216.13C269.81,-239.61 289.55,-279.89 320.63,-300 406.65,-355.67 451.23,-303.29 548.34,-336 590.08,-350.06 634.02,-374.87 663.97,-393.53"/>
+<polygon fill="black" stroke="black" points="661.97,-396.4 672.29,-398.79 665.71,-390.48 661.97,-396.4"/>
+</g>
+<!-- int_octal&#45;&gt;float_decimal_fraction -->
+<g id="edge16" class="edge" data-name="int_octal-&gt;float_decimal_fraction">
+
+<path fill="none" stroke="black" d="M297.23,-201.48C366.5,-207.06 504.16,-218.15 599.35,-225.82"/>
+<polygon fill="black" stroke="black" points="598.98,-229.3 609.23,-226.61 599.54,-222.32 598.98,-229.3"/>
+<text text-anchor="middle" x="471.86" y="-226.2" font-family="Times,serif" font-size="14.00">.</text>
+</g>
+<!-- int_octal&#45;&gt;int_octal -->
+<g id="edge14" class="edge" data-name="int_octal-&gt;int_octal">
+
+<path fill="none" stroke="black" d="M239.01,-215.41C236.41,-225.09 241.06,-234 252.97,-234 259.85,-234 264.31,-231.02 266.34,-226.64"/>
+<polygon fill="black" stroke="black" points="269.82,-227.09 266.84,-216.92 262.83,-226.73 269.82,-227.09"/>
+<text text-anchor="middle" x="252.97" y="-238.2" font-family="Times,serif" font-size="14.00">0-7</text>
+</g>
+<!-- int_octal&#45;&gt;int_octal_invalid -->
+<g id="edge15" class="edge" data-name="int_octal-&gt;int_octal_invalid">
+
+<path fill="none" stroke="black" d="M262.19,-180.01C272.8,-158.73 293.2,-123.63 320.63,-103.2 343.69,-86.02 372.99,-74.5 399.57,-66.88"/>
+<polygon fill="black" stroke="black" points="400.19,-70.34 408.92,-64.34 398.35,-63.58 400.19,-70.34"/>
+<text text-anchor="middle" x="349.01" y="-108.2" font-family="Times,serif" font-size="14.00">8-9</text>
+</g>
+<!-- int_octal&#45;&gt;float_decimal_e -->
+<g id="edge17" class="edge" data-name="int_octal-&gt;float_decimal_e">
+
+<path fill="none" stroke="black" d="M286.65,-185.74C315.02,-175.54 357.4,-161.39 395.38,-153 552.31,-118.33 741.49,-121.97 846.87,-127.88"/>
+<polygon fill="black" stroke="black" points="846.66,-131.38 856.85,-128.47 847.07,-124.39 846.66,-131.38"/>
+<text text-anchor="middle" x="575.66" y="-134.2" font-family="Times,serif" font-size="14.00">e/E</text>
+</g>
+<!-- int_octal_invalid&#45;&gt;float_decimal_fraction -->
+<g id="edge20" class="edge" data-name="int_octal_invalid-&gt;float_decimal_fraction">
+
+<path fill="none" stroke="black" d="M487.15,-70.82C504.49,-91.77 535.29,-126.86 566.34,-152 594.63,-174.91 629.87,-196.14 657.19,-211.27"/>
+<polygon fill="black" stroke="black" points="655.47,-214.31 665.92,-216.03 658.82,-208.17 655.47,-214.31"/>
+<text text-anchor="middle" x="575.66" y="-170.2" font-family="Times,serif" font-size="14.00">.</text>
+</g>
+<!-- int_octal_invalid&#45;&gt;int_octal_invalid -->
+<g id="edge19" class="edge" data-name="int_octal_invalid-&gt;int_octal_invalid">
+
+<path fill="none" stroke="black" d="M453.2,-70.78C450.03,-80.31 456.25,-89 471.86,-89 480.64,-89 486.45,-86.25 489.29,-82.15"/>
+<polygon fill="black" stroke="black" points="492.76,-82.61 490.36,-72.29 485.8,-81.85 492.76,-82.61"/>
+<text text-anchor="middle" x="471.86" y="-93.2" font-family="Times,serif" font-size="14.00">0-9</text>
+</g>
+<!-- int_octal_invalid&#45;&gt;float_decimal_e -->
+<g id="edge21" class="edge" data-name="int_octal_invalid-&gt;float_decimal_e">
+
+<path fill="none" stroke="black" d="M540.08,-61.56C606.6,-70.43 711.21,-85.48 800.95,-103.2 822.45,-107.44 845.8,-112.87 866.54,-117.99"/>
+<polygon fill="black" stroke="black" points="865.43,-121.32 875.98,-120.34 867.12,-114.52 865.43,-121.32"/>
+<text text-anchor="middle" x="701.97" y="-108.2" font-family="Times,serif" font-size="14.00">e/E</text>
+</g>
+<!-- float_decimal_exp -->
+<g id="node16" class="node" pointer-events="visible" data-name="float_decimal_exp">
+
+<ellipse fill="none" stroke="black" cx="1362.22" cy="-186" rx="82.8" ry="18"/>
+<text text-anchor="middle" x="1362.22" y="-181.8" font-family="Times,serif" font-size="14.00">float_decimal_exp</text>
+</g>
+<!-- float_decimal_e&#45;&gt;float_decimal_exp -->
+<g id="edge30" class="edge" data-name="float_decimal_e-&gt;float_decimal_exp">
+
+<path fill="none" stroke="black" d="M981.73,-146.86C994.25,-149.74 1007.62,-152.65 1020.11,-155 1103.56,-170.74 1200.05,-178.56 1269.07,-182.41"/>
+<polygon fill="black" stroke="black" points="1268.64,-185.89 1278.82,-182.93 1269.02,-178.9 1268.64,-185.89"/>
+<text text-anchor="middle" x="1139.61" y="-184.2" font-family="Times,serif" font-size="14.00">0-9</text>
+</g>
+<!-- float_decimal_sign -->
+<g id="node17" class="node" pointer-events="visible" data-name="float_decimal_sign">
+
+<ellipse fill="none" stroke="black" cx="1139.61" cy="-133" rx="85.11" ry="18"/>
+<text text-anchor="middle" x="1139.61" y="-128.8" font-family="Times,serif" font-size="14.00">float_decimal_sign</text>
+</g>
+<!-- float_decimal_e&#45;&gt;float_decimal_sign -->
+<g id="edge31" class="edge" data-name="float_decimal_e-&gt;float_decimal_sign">
+
+<path fill="none" stroke="black" d="M1002.58,-133.65C1015.64,-133.59 1029.42,-133.52 1043,-133.46"/>
+<polygon fill="black" stroke="black" points="1042.85,-136.96 1052.83,-133.41 1042.82,-129.96 1042.85,-136.96"/>
+<text text-anchor="middle" x="1028.34" y="-138.2" font-family="Times,serif" font-size="14.00">+/-</text>
+</g>
+<!-- int_hex&#45;&gt;getIntSuffix -->
+<g id="edge26" class="edge" data-name="int_hex-&gt;getIntSuffix">
+
+<path fill="none" stroke="black" d="M505.06,-481.55C542.53,-469.4 604.93,-449.16 649.23,-434.79"/>
+<polygon fill="black" stroke="black" points="650.2,-438.15 658.63,-431.74 648.04,-431.49 650.2,-438.15"/>
+</g>
+<!-- int_hex&#45;&gt;int_hex -->
+<g id="edge23" class="edge" data-name="int_hex-&gt;int_hex">
+
+<path fill="none" stroke="black" d="M453.77,-508.29C449.41,-518.39 455.44,-528 471.86,-528 481.61,-528 487.7,-524.61 490.12,-519.74"/>
+<polygon fill="black" stroke="black" points="493.62,-519.75 489.97,-509.8 486.62,-519.85 493.62,-519.75"/>
+<text text-anchor="middle" x="471.86" y="-532.2" font-family="Times,serif" font-size="14.00">0-9a-fA-F</text>
+</g>
+<!-- float_hex_fraction -->
+<g id="node14" class="node" pointer-events="visible" data-name="float_hex_fraction">
+
+<ellipse fill="none" stroke="black" cx="701.97" cy="-546" rx="82.22" ry="18"/>
+<text text-anchor="middle" x="701.97" y="-541.8" font-family="Times,serif" font-size="14.00">float_hex_fraction</text>
+</g>
+<!-- int_hex&#45;&gt;float_hex_fraction -->
+<g id="edge24" class="edge" data-name="int_hex-&gt;float_hex_fraction">
+
+<path fill="none" stroke="black" d="M508,-500.32C541.43,-508.23 592.6,-520.34 633.84,-530.11"/>
+<polygon fill="black" stroke="black" points="632.91,-533.48 643.45,-532.38 634.52,-526.67 632.91,-533.48"/>
+<text text-anchor="middle" x="575.66" y="-521.2" font-family="Times,serif" font-size="14.00">.</text>
+</g>
+<!-- float_hex_p -->
+<g id="node15" class="node" pointer-events="visible" data-name="float_hex_p">
+
+<ellipse fill="none" stroke="black" cx="928.87" cy="-493" rx="57.32" ry="18"/>
+<text text-anchor="middle" x="928.87" y="-488.8" font-family="Times,serif" font-size="14.00">float_hex_p</text>
+</g>
+<!-- int_hex&#45;&gt;float_hex_p -->
+<g id="edge25" class="edge" data-name="int_hex-&gt;float_hex_p">
+
+<path fill="none" stroke="black" d="M512.05,-492.09C589.52,-492.26 763.11,-492.64 859.71,-492.85"/>
+<polygon fill="black" stroke="black" points="859.58,-496.35 869.59,-492.87 859.59,-489.35 859.58,-496.35"/>
+<text text-anchor="middle" x="701.97" y="-496.2" font-family="Times,serif" font-size="14.00">p/P</text>
+</g>
+<!-- float_hex_fraction&#45;&gt;float_hex_fraction -->
+<g id="edge35" class="edge" data-name="float_hex_fraction-&gt;float_hex_fraction">
+
+<path fill="none" stroke="black" d="M679.27,-563.78C675.41,-573.31 682.98,-582 701.97,-582 712.66,-582 719.73,-579.25 723.18,-575.15"/>
+<polygon fill="black" stroke="black" points="726.64,-575.65 724.48,-565.28 719.7,-574.74 726.64,-575.65"/>
+<text text-anchor="middle" x="701.97" y="-586.2" font-family="Times,serif" font-size="14.00">0-9a-fA-F</text>
+</g>
+<!-- float_hex_fraction&#45;&gt;float_hex_p -->
+<g id="edge36" class="edge" data-name="float_hex_fraction-&gt;float_hex_p">
+
+<path fill="none" stroke="black" d="M759.43,-532.69C793.45,-524.68 836.65,-514.5 870.78,-506.45"/>
+<polygon fill="black" stroke="black" points="871.58,-509.86 880.51,-504.16 869.97,-503.05 871.58,-509.86"/>
+<text text-anchor="middle" x="828.29" y="-521.2" font-family="Times,serif" font-size="14.00">p/P</text>
+</g>
+<!-- float_hex_exp -->
+<g id="node18" class="node" pointer-events="visible" data-name="float_hex_exp">
+
+<ellipse fill="none" stroke="black" cx="1362.22" cy="-439" rx="66.05" ry="18"/>
+<text text-anchor="middle" x="1362.22" y="-434.8" font-family="Times,serif" font-size="14.00">float_hex_exp</text>
+</g>
+<!-- float_hex_p&#45;&gt;float_hex_exp -->
+<g id="edge37" class="edge" data-name="float_hex_p-&gt;float_hex_exp">
+
+<path fill="none" stroke="black" d="M986,-490.34C1052.25,-486.53 1165.54,-477.9 1261.33,-460 1273.4,-457.74 1286.25,-455.17 1298.58,-452.62"/>
+<polygon fill="black" stroke="black" points="1299.17,-456.07 1308.24,-450.6 1297.73,-449.22 1299.17,-456.07"/>
+<text text-anchor="middle" x="1139.61" y="-489.2" font-family="Times,serif" font-size="14.00">0-9</text>
+</g>
+<!-- float_hex_sign -->
+<g id="node19" class="node" pointer-events="visible" data-name="float_hex_sign">
+
+<ellipse fill="none" stroke="black" cx="1139.61" cy="-439" rx="68.36" ry="18"/>
+<text text-anchor="middle" x="1139.61" y="-434.8" font-family="Times,serif" font-size="14.00">float_hex_sign</text>
+</g>
+<!-- float_hex_p&#45;&gt;float_hex_sign -->
+<g id="edge38" class="edge" data-name="float_hex_p-&gt;float_hex_sign">
+
+<path fill="none" stroke="black" d="M966.84,-479.12C983.04,-473.36 1002.36,-466.94 1020.11,-462.2 1036.07,-457.93 1053.44,-454.1 1069.83,-450.83"/>
+<polygon fill="black" stroke="black" points="1070.36,-454.29 1079.51,-448.95 1069.02,-447.42 1070.36,-454.29"/>
+<text text-anchor="middle" x="1028.34" y="-466.2" font-family="Times,serif" font-size="14.00">+/-</text>
+</g>
+<!-- float_decimal_exp&#45;&gt;getFloatSuffix -->
+<g id="edge34" class="edge" data-name="float_decimal_exp-&gt;getFloatSuffix">
+
+<path fill="none" stroke="black" d="M1397.29,-202.59C1421.64,-214.45 1454.76,-230.57 1481.76,-243.72"/>
+<polygon fill="black" stroke="black" points="1479.89,-246.7 1490.41,-247.94 1482.96,-240.41 1479.89,-246.7"/>
+</g>
+<!-- float_decimal_exp&#45;&gt;float_decimal_exp -->
+<g id="edge33" class="edge" data-name="float_decimal_exp-&gt;float_decimal_exp">
+
+<path fill="none" stroke="black" d="M1344,-203.78C1340.9,-213.31 1346.97,-222 1362.22,-222 1370.8,-222 1376.48,-219.25 1379.25,-215.15"/>
+<polygon fill="black" stroke="black" points="1382.72,-215.6 1380.29,-205.29 1375.76,-214.86 1382.72,-215.6"/>
+<text text-anchor="middle" x="1362.22" y="-226.2" font-family="Times,serif" font-size="14.00">0-9</text>
+</g>
+<!-- float_decimal_sign&#45;&gt;float_decimal_exp -->
+<g id="edge32" class="edge" data-name="float_decimal_sign-&gt;float_decimal_exp">
+
+<path fill="none" stroke="black" d="M1206.65,-144.46C1224.48,-147.88 1243.71,-151.89 1261.33,-156.2 1275.06,-159.56 1289.71,-163.64 1303.45,-167.7"/>
+<polygon fill="black" stroke="black" points="1302.2,-170.98 1312.78,-170.49 1304.2,-164.27 1302.2,-170.98"/>
+<text text-anchor="middle" x="1252" y="-161.2" font-family="Times,serif" font-size="14.00">0-9</text>
+</g>
+<!-- float_hex_exp&#45;&gt;getFloatSuffix -->
+<g id="edge41" class="edge" data-name="float_hex_exp-&gt;getFloatSuffix">
+
+<path fill="none" stroke="black" d="M1380.4,-421.24C1409.75,-390.89 1469.72,-328.88 1504.01,-293.42"/>
+<polygon fill="black" stroke="black" points="1506.24,-296.15 1510.68,-286.53 1501.21,-291.28 1506.24,-296.15"/>
+</g>
+<!-- float_hex_exp&#45;&gt;float_hex_exp -->
+<g id="edge40" class="edge" data-name="float_hex_exp-&gt;float_hex_exp">
+
+<path fill="none" stroke="black" d="M1344,-456.78C1340.9,-466.31 1346.97,-475 1362.22,-475 1370.8,-475 1376.48,-472.25 1379.25,-468.15"/>
+<polygon fill="black" stroke="black" points="1382.72,-468.6 1380.29,-458.29 1375.76,-467.86 1382.72,-468.6"/>
+<text text-anchor="middle" x="1362.22" y="-479.2" font-family="Times,serif" font-size="14.00">0-9</text>
+</g>
+<!-- float_hex_sign&#45;&gt;float_hex_exp -->
+<!-- float_hex_sign&#45;&gt;float_hex_exp -->
+<g id="edge39" class="edge" data-name="float_hex_sign-&gt;float_hex_exp">
+
+<path fill="none" stroke="black" d="M1208.3,-439C1232.47,-439 1259.85,-439 1284.71,-439"/>
+<polygon fill="black" stroke="black" points="1284.42,-442.5 1294.42,-439 1284.42,-435.5 1284.42,-442.5"/>
+<text text-anchor="middle" x="1252" y="-443.2" font-family="Times,serif" font-size="14.00">0-9</text>
+</g>
+
+</g>
+</svg>

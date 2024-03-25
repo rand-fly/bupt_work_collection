@@ -1,0 +1,65 @@
+digraph G {
+    rankdir=LR
+    node [shape = plaintext,label=""]
+    start1;start2;start3;
+    node [shape = box,label="\N"]
+    getIntSuffix;getFloatSuffix;
+    node [shape = ellipse]
+
+    start1 -> zero
+    start2 -> int_decimal
+    start3 -> float_decimal_fraction
+
+    zero -> int_hex_x[label="x/X"]
+    zero -> float_decimal_fraction[label="."]
+    zero -> int_octal[label="0-7"]
+    zero -> int_octal_invalid[label="8-9"]
+    zero -> float_decimal_e[label="e/E"]
+    zero -> getIntSuffix
+
+    int_decimal -> int_decimal[label="0-9"]
+    int_decimal -> float_decimal_fraction[label="."]
+    int_decimal -> float_decimal_e[label="e/E"]
+    int_decimal -> getIntSuffix
+
+    int_octal -> int_octal[label="0-7"]
+    int_octal -> int_octal_invalid[label="8-9"]
+    int_octal -> float_decimal_fraction[label="."]
+    int_octal -> float_decimal_e[label="e/E"]
+    int_octal -> getIntSuffix
+
+    int_octal_invalid -> int_octal_invalid[label="0-9"]
+    int_octal_invalid -> float_decimal_fraction[label="."]
+    int_octal_invalid -> float_decimal_e[label="e/E"]
+
+    int_hex_x -> int_hex[label="0-9a-fA-F"]
+
+    int_hex -> int_hex[label="0-9a-fA-F"]
+    int_hex -> float_hex_fraction[label="."]
+    int_hex -> float_hex_p[label="p/P"]
+    int_hex -> getIntSuffix
+
+    float_decimal_fraction -> float_decimal_fraction[label="0-9"]
+    float_decimal_fraction -> float_decimal_e[label="e/E"]
+    float_decimal_fraction -> getFloatSuffix
+
+    float_decimal_e -> float_decimal_exp[label="0-9"]
+    float_decimal_e -> float_decimal_sign[label="+/-"]
+
+    float_decimal_sign -> float_decimal_exp[label="0-9"]
+
+    float_decimal_exp -> float_decimal_exp[label="0-9"]
+    float_decimal_exp -> getFloatSuffix
+
+    float_hex_fraction -> float_hex_fraction[label="0-9a-fA-F"]
+    float_hex_fraction -> float_hex_p[label="p/P"]
+
+    float_hex_p -> float_hex_exp[label="0-9"]
+    float_hex_p -> float_hex_sign[label="+/-"]
+
+    float_hex_sign -> float_hex_exp[label="0-9"]
+
+    float_hex_exp -> float_hex_exp[label="0-9"]
+    float_hex_exp -> getFloatSuffix
+
+}

@@ -1,0 +1,12 @@
+digraph G {
+  rankdir=LR
+  node[shape="box"]
+  getToken -> getIdentifierToken[label="_a-zA-Z\\{non-ascii}"]  
+  getToken -> getStringToken[label="\""]
+  getToken -> getCharToken[label="'"]
+  getToken -> getNumericToken[label="0-9."]
+  getIdentifierToken -> getStringToken[label="(L|u|U|u8)\""]
+  getIdentifierToken -> getCharToken[label="(L|u|U|u8)'"]
+  getNumericToken -> getIntSuffix
+  getNumericToken -> getFloatSuffix
+}
